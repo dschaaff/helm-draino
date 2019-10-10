@@ -17,7 +17,7 @@ helmunit:
   stage: test
   image: 960048260646.dkr.ecr.us-west-2.amazonaws.com/helm-tester:latest
   script:
-    - helm template draino | kubeval -v 1.14.6 --strict
+    - helm template draino | kubeval -v 1.14.6 --strict --ignore-missing-schemas
 
 helmpush:
   stage: deploy

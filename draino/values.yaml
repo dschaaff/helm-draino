@@ -26,6 +26,9 @@ rbac:
   create: true
   serviceAccountName:
 
+serviceMonitor:
+  enabled: true # set to false to disable prometheus operator service monitor
+
 nodeSelector: {}
 
 tolerations: []

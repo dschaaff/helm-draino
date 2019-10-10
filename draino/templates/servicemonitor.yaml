@@ -26,7 +26,7 @@ metadata:
 spec:
   endpoints:
   - interval: 10s
-    port: 10002
+    port: metrics
     path: /metrics
   namespaceSelector:
     any: true

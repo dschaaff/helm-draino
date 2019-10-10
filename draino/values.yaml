@@ -11,7 +11,7 @@ replicaCount: 1
 
 image:
   repository: planetlabs/draino
-  tag: 5e07e93
+  tag: 83b5f70
   pullPolicy: IfNotPresent
 
 resources:

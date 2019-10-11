@@ -26,3 +26,4 @@ helmpush:
     - master
   script:
     - helm push ./draino https://cordial-charts.dev.cordialdev.com
+    - helm push ./draino --username cordial --password $PROD_HELM_REPO_PASSWORD https://cordial-charts.ops.cordial.io

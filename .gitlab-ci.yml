@@ -5,7 +5,7 @@ stages:
 include:
   - project: 'CordialExperiences/apps/app-gitlab-snippets'
     ref: master
-    file: '/templates/app-pipelines/.helm-dev-setup.yml'
+    file: '.helm-dev-setup.yml'
 
 services:
   - docker:dind
